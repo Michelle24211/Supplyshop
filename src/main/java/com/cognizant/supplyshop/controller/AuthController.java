@@ -17,7 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://group-ten-frontend.s3-website.us-east-2.amazonaws.com")
 public class AuthController {
     @Autowired private UserRepository userRepository;
     @Autowired private JwtUtils jwtUtils;

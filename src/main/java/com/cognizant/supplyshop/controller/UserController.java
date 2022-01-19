@@ -17,7 +17,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://group-ten-frontend.s3-website.us-east-2.amazonaws.com")
 public class UserController {
     @Autowired private UserRepository userRepository;
     @Autowired private AuthService authService;
